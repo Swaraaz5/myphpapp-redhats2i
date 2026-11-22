@@ -1,7 +1,7 @@
 <?php
 // Simple PHP application for Red Hat OpenShift Source-to-Image (S2I) hands-on.
 
-$appName = getenv('APP_NAME') ?: 'OpenShift PHP Demo by Swaraj Purekar';
+$appName = getenv('APP_NAME') ?: 'OpenShift S2I by Swaraj Purekar';
 $hostname = gethostname() ?: 'Unknown';
 $phpVersion = PHP_VERSION;
 $serverTime = date('Y-m-d H:i:s T');
