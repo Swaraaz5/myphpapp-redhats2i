@@ -25,7 +25,7 @@ $serverTime = date('Y-m-d H:i:s T');
 <body>
     <main class="card">
         <h1><?= htmlspecialchars($appName, ENT_QUOTES, 'UTF-8') ?></h1>
-        <p class="status">Application is running successfully!</p>
+        <p class="status">Application is running successfully by Swaraj!</p>
         <p>This PHP application was deployed using Red Hat OpenShift Source-to-Image (S2I).</p>
         <section class="details">
             <p><strong>PHP version:</strong> <code><?= htmlspecialchars($phpVersion, ENT_QUOTES, 'UTF-8') ?></code></p>
